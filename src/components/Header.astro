@@ -1,9 +1,7 @@
 ---
 import Nav from "./Nav.astro";
-import DarkModeToggle from "./DarkModeToggle.astro";
-import { ViewTransitions } from 'astro:transitions';
 ---
-<ViewTransitions />
+
 <header class="">
   <a
     class="unset absolute z-10 left-[50%] -top-[100rem] translate-x-[-50%] bg-white text-black px-8 py-2 focus:top-[initial]"
@@ -37,7 +35,7 @@ import { ViewTransitions } from 'astro:transitions';
       <span>Linkedin</span>
     </a>
   </div>
-  <DarkModeToggle />
+
 </header>
 <style>
   header {

@@ -22,7 +22,7 @@
 <script>
   function updateHTMLTheme(mode: "light" | "dark") {
     const themeColorMetaTag = document.head.querySelector(
-      'meta[name="theme-color"]'
+        'meta[name="theme-color"]'
     );
 
     if (mode === "dark") {
@@ -52,7 +52,7 @@
     constructor() {
       super();
       let currentMode: "light" | "dark" =
-        document.documentElement.classList.contains("dark") ? "dark" : "light";
+          document.documentElement.classList.contains("dark") ? "dark" : "light";
 
       const toggle = this.querySelector("button");
       const iconElem = toggle?.querySelector("#mode-circle");
